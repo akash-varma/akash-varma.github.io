@@ -1,0 +1,240 @@
+@charset "ISO-8859-1";
+
+body
+{
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+
+/*--------------------------------Login------------------------------------------------------------------------------*/
+.login-container
+{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  background-image: url("images/ring-2666701.jpg");
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+.login-container-items
+{
+  border: 4px solid black;
+  background-color: rgb(21, 20, 22);
+  box-shadow: 8px 8px 20px #c8d396 ;
+  margin: 10% 28% 5% 28%;
+  width: 40%;
+  height: 260px;
+  opacity: 0.9;
+  padding-top: 5%;
+  border-radius: 5%;
+}
+
+.login-container form > input
+{
+  margin-top: 4%;
+  margin-left: 15%;
+  height: 35px;
+  width: 70%;
+  color: white;
+  background-color: black;
+}
+::placeholder
+{
+  color: white;
+}
+.login-container form > input:hover
+{
+  border: 2px solid blue;
+}
+
+.login-container form > button[type="submit"]:hover
+{
+  background-color: #f4bc42 ;
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+  border: 2px solid black;
+  margin-left: 36%;
+}
+
+.login-button-adjust
+{
+  margin-top: 4%;
+  margin-left: 35%;
+  height: 30px;
+  width: 25%;
+}
+
+.login-container form > input[type="submit"]:hover
+{
+  cursor: pointer;
+}
+/*--------------------------------Login------------------------------------------------------------------------------*/
+
+/*--------------------------------close------------------------------------------------------------------------------*/
+.close
+{
+  /* float: right;
+  margin-right: 10px;
+  background-color: #FFF;
+  border: 2px solid black;
+  width: 0%; */
+  float: right;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.close-adjust
+{
+  margin-right: 5%;
+  margin-top: -5%;
+  margin-bottom: 5%;
+}
+/*--------------------------------close---------------------------------------*/
+
+/*--------------------------------navBar---------------------------------------*/
+.navBar {
+  top: 0;
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  height: 50px;
+  padding: 0px 20px;
+}
+.buttons {
+  width: 80px;
+  height: 50px;
+  font-size: 18px;
+  padding: 0px 0px;
+  margin-right: 25px;
+  font-family: "lucida console";
+  color: #fff;
+  background-color: rgba(0,0,0,0.05);
+   border: none;
+   cursor:pointer;
+   float: right;
+}
+.buttons:hover {
+  color: #123;
+  background-color: white;
+}
+/*--------------------------------navBar---------------------------------------*/
+
+
+
+
+.signup-container
+{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 25px;
+  background-image: url("images/ring-2666701.jpg");
+  background-size: cover;
+  overflow-y: hidden;
+}
+.sform-container-items
+{
+    border: 4px solid black;
+    background-color: rgb(21, 20, 22);
+    margin: 4% 28% 5% 28%;
+    width: 40%;
+    height: 460px;
+    opacity: 0.9;
+    padding-top: 5%;
+    border-radius: 5%;
+    box-shadow: 8px 8px 20px #c8d396 ;
+}
+
+.signup-container form > input
+{
+  margin-top: 4%;
+  margin-left: 15%;
+  height: 35px;
+  width: 70%;
+  color: white;
+  background-color: black;
+}
+::placeholder
+{
+  color: white;
+}
+.signup-container form > input:hover
+{
+  border: 2px solid blue;
+}
+
+.signup-container form > button[type="submit"]:hover
+{
+  background-color: #f4bc42 ;
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+  border: 2px solid black;
+  margin-left: 36%;
+}
+
+/*--------------------------------baki ka editing------------------------------------------------------------------------------*/
+.lines {
+  height:130px;
+  font-family: "comic sans ms";
+  font-size: 26px;
+  line-height: 150px;
+  padding-left: 50px;
+  background-color:black;
+  color:white
+}
+
+.img1 {
+   background-image: url('images/feature35.jpg');
+   top: 0;
+   height: 800px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.img2 {
+   background-image: url('images/jewelry-3139627.jpg');
+   height: 750px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.img3 {
+  background-image: url('images/jewels-1090711.jpg');
+  height: 750px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img4 {
+  background-image: url('images/ceremony-1848121.jpg');
+  height: 750px;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#footer {
+  height: 250px;
+  background-color: #25529b;
+}
