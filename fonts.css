@@ -1,0 +1,72 @@
+/*---------------------------------------------------HOME.HTML-------------------------------------------------------------------*/
+body{
+  margin: 0px;
+  background-image: url("images/jewellery-810162.jpg");
+  background-size: cover; 
+}
+
+/*-------------------adjust logo----------------------------*/
+.adjust-logo{
+  position: absolute;
+  top: 15%;
+  width:25%;
+  height:70%;
+  margin-left: 70%;
+  border: 5px solid black;
+  border-radius: 5%;    
+  box-shadow: 8px 8px 20px #c8d396;
+}
+
+.adjust-label{
+  position: absolute;
+  top: 20%;
+  margin-left: 5%;
+  font-family: "comic sans ms";
+  font-size: 60px;
+  color: white;
+}
+.adjust-button{
+  position: absolute;
+  top: 50%;
+  margin-left: 27%;
+}
+
+.adjust-button form > input
+{
+  margin-top: 4%;
+  margin-left: -180%;
+  height: 35px;
+  width: 300%;
+  color: white;
+  background-color: black;
+}
+::placeholder
+{
+  color: white;
+}
+.adjust-button form > input:hover
+{
+  /*border: 2px solid blue;*/ 
+  border-radius: 5%;    
+  box-shadow: 0px 5px 20px #c8d396;
+}
+.adjust-contact{  
+  color: white;
+  position: absolute;
+  margin-left: 70%;
+  font-family: "comic sans ms";
+}
+.adjust1-contact{  
+  top : 3%;
+  color: white;
+  position: absolute;
+  margin-left: 70%;
+  font-family: "comic sans ms";
+}
+.adjust2-contact{  
+  top : 6%;
+  color: white;
+  position: absolute;
+  margin-left: 70%;
+  font-family: "comic sans ms";
+}

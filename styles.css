@@ -10,7 +10,7 @@ body
 /*--------------------------------Login------------------------------------------------------------------------------*/
 .login-container
 {
-  display: none;
+  display: block;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -70,6 +70,20 @@ body
   margin-left: 35%;
   height: 30px;
   width: 25%;
+}
+.login1-button-adjust
+{
+  margin-top: 4%;
+  margin-left: 35%;
+  height: 30px;
+  width: 25%;
+}
+.signup-button-adjust{
+    position : absolute;
+   margin-top: 1.6%;
+  margin-left: 5%;
+  height: 30px;
+  width: 5%;
 }
 
 .login-container form > input[type="submit"]:hover
@@ -154,7 +168,7 @@ body
     opacity: 0.9;
     padding-top: 5%;
     border-radius: 5%;
-    box-shadow: 8px 8px 20px #c8d396 ;
+    box-shadow: 8px 8px 20px #c8d396;
 }
 
 .signup-container form > input
@@ -197,7 +211,7 @@ body
 }
 
 .img1 {
-   background-image: url('images/feature35.jpg');
+   background-image: url('images/gold-2342073.jpg');
    top: 0;
    height: 800px;
    background-attachment: fixed;
@@ -226,7 +240,7 @@ body
 }
 
 .img4 {
-  background-image: url('images/ceremony-1848121.jpg');
+  background-image: url('images/ring-2666701.jpg');
   height: 750px;
   /* background-attachment: fixed; */
   background-position: center;
@@ -234,7 +248,23 @@ body
   background-size: cover;
 }
 
-#footer {
-  height: 250px;
-  background-color: #25529b;
+.img5 {
+  background-image: url('images/gold-chain-5933.jpg');
+  height: 750px;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.img6 {
+  background-image: url('images/jewellery-810162.jpg');
+  height: 750px;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+

@@ -1,55 +1,46 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>DayaGold</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="index.js"> </script>
-  </head>
-  <body >
-
-    <nav class="navBar">
-      <button class="buttons" onclick="openSign()">Sign Up </button>
-      <button class="buttons" onclick="openLog()">LogIn </button>
-    </nav>
-
-    <div id="lin" class="login-container">
-      <div class="login-container-items">
-        <div class="close-adjust">
-        <button onclick="closeLog()" class="close" title="Close">&times;</button>
+    <head>
+        <title>DayaGold</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="index.js"> </script>
+    </head>
+    <body>
+        <!-- <nav class="navBar">
+            <button class="buttons" onclick="openSign()">Sign Up </button>
+            <button class="buttons" onclick="openLog()">LogIn </button>
+        </nav> -->
+    
+        <div class="login-container">
+            <div class="login-container-items">
+              <!-- <div class="close-adjust">
+                  <button onclick="closeLog()" class="close" title="Close">&times;</button>
+              </div> -->
+              <form method="post" action="firstPage.html">
+                <input type="text" onkeypress="return onlyAlphabet(event)" placeholder="Username" name="username" required>
+                <input type="password" placeholder="Password" name="pass" required>
+                <button type="submit" class="login1-button-adjust">Login</button>
+                <!-- <button type="SignUp" class="signup-button-adjust">SignUp</button> -->
+                <button onclick="openSign()" class="signup-button-adjust" title="SignUp">SignUp</button>
+              </form>
+            </div>
         </div>
-        <form method="post" action="myjsp.jsp">
-            <input type="text" onkeypress="return onlyAlphabet(event)" placeholder="Username" name="username" required>
-            <input type="password" placeholder="Password" name="pass" required>
-            <button type="submit" class="login-button-adjust">Login</button>
-        </form>
-      </div>
-    </div>
 
     <div id="sup" class="signup-container">
       <div class="sform-container-items">
         <div class="close-adjust">
             <button onclick="closeSign()" class="close" title="Close">&times;</button>
         </div>
-        <form method="post" action="myServlet">
+        <form method="post" action="index.html">
           <input type="text" onkeypress="return onlyAlphabet(event)" placeholder="Username" name="userName" required>
           <input type="text" onkeypress="return isNumberKey(event)" placeholder="Mobile No." name="userMob" required>
           <input type="email" placeholder="Email" name="userEmail" required>
           <input type="text" placeholder="Address" name="userAddress" required>
-		  <input type="text" onkeypress="return isNumberKey(event)" placeholder="Age" name="userAge" required>
+		      <input type="text" onkeypress="return isNumberKey(event)" placeholder="Age" name="userAge" required>
           <input type="password" placeholder="Password" name="pass" required>
           <button type="submit" class="login-button-adjust">SignUp</button>
         </form>
       </div>
     </div>
 
-    <div class="img1"></div>
-    <div class="lines">Neckless </div>
-    <div class="img2"></div>
-    <div class="lines">Bangles</div>
-    <div class="img3"></div>
-    <div class="lines">Set</div>
-    <div class="img4"></div>
-    <div class="lines" >Ring</div>
-    <div id="footer">Footer</div>
-  </body>
+    </body>
 </html>
